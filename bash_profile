@@ -113,3 +113,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# set bash for vi keybindings
+set -o vi
+
+# clear the screen
+bind -m vi-insert '"\C-l":clear-screen'
