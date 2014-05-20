@@ -2,6 +2,4 @@ UnBundle 'justinmk/vim-sneak'
 color solarized
 set nospell
 
-" shortcuts for adjusting background
-map <C-K> :set background=dark<CR>
-map <C-L> :set background=light<CR>
+set guioptions-=r
