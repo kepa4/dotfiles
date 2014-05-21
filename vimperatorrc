@@ -3,7 +3,7 @@ autocmd LocationChange mail\\.google\\.com            js modes.passAllKeys = tru
 autocmd LocationChange www\\.google\\.com/calendar    js modes.passAllKeys = true
 autocmd LocationChange drive\\.google\\.com           js modes.passAllKeys = true
 autocmd LocationChange docs\\.google\\.com            js modes.passAllKeys = true
-autocmd LocationChange github\\.com                   js modes.passAllKeys = true
+//autocmd LocationChange github\\.com                   js modes.passAllKeys = true
 
 map H gT
 map L gt

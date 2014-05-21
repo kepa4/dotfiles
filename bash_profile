@@ -119,3 +119,6 @@ set -o vi
 
 # clear the screen
 bind -m vi-insert '"\C-l":clear-screen'
+
+# source virtualenvwrapper
+source /usr/local/bin/virtualenvwrapper.sh
