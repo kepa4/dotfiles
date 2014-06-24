@@ -15,6 +15,9 @@ alias myth='ssh -t cjeffers@myth.stanford.edu "exec bash"'
  PS1="\[\e[32m\]\$(parse_git_branch)\[\e[34m\]\h:\W \$ \[\e[m\]"
  export PS1
 
+ # AWS easy ssh
+alias otorder-connect='ssh -i /Users/cameron/.aws/keys/otorder/cerberus.pem ubuntu@54.213.95.13'
+
  # git aliases
  alias gs='git status -s'
  alias gl='git lg'
