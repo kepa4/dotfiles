@@ -1,5 +1,6 @@
 UnBundle 'justinmk/vim-sneak'
 color solarized
+set bg=light
 set nospell
 
 set guioptions-=r

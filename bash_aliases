@@ -16,7 +16,7 @@ alias myth='ssh -t cjeffers@myth.stanford.edu "exec bash"'
  export PS1
 
  # AWS easy ssh
-alias otorder-connect='ssh -i /Users/cameron/.aws/keys/otorder/cerberus.pem ubuntu@54.213.95.13'
+alias otorder-connect='ssh ubuntu@www.otorder.com'
 
  # git aliases
  alias gs='git status -s'
