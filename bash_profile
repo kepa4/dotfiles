@@ -122,3 +122,6 @@ bind -m vi-insert '"\C-l":clear-screen'
 
 # source virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh
+
+# add script bin to PATH
+export PATH=$PATH:$HOME/Documents/dotfiles/bin
