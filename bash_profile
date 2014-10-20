@@ -125,3 +125,13 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 # add script bin to PATH
 export PATH=$PATH:$HOME/Documents/dotfiles/bin
+
+# add java_home
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+# add ec2 stuff
+export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.1.1
+export PATH=$PATH:$EC2_HOME/bin
+export AWS_HOME=$HOME/.aws
+export AWS_ACCESS_KEY=$(cat $AWS_HOME/rootkey/access_key_id)
+export AWS_SECRET_KEY=$(cat $AWS_HOME/rootkey/secret_access_key)
