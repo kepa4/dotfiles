@@ -22,6 +22,9 @@ alias myth='init_kerberos_tokens_if_none_exist && ssh -t cjeffers@myth.stanford.
  # AWS easy ssh
 alias otorder-connect='ssh ubuntu@www.otorder.com'
 
+# tmux startup configured for otorder
+alias tmux-otorder='tmux_otorder.sh'
+
  # git aliases
  alias gs='git status -s'
  alias gl='git lg'
