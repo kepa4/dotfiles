@@ -4,3 +4,9 @@ set bg=light
 set nospell
 
 set guioptions-=r
+
+"VIM + crontab
+if $VIM_CRONTAB == "true"
+    set nobackup
+    set nowritebackup
+endif

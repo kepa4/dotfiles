@@ -25,7 +25,10 @@ alias otorder-connect='ssh ubuntu@www.otorder.com'
 # tmux startup configured for otorder
 alias tmux-otorder='tmux_otorder.sh'
 
- # git aliases
- alias gs='git status -s'
- alias gl='git lg'
- alias gco='git checkout'
+# git aliases
+alias gs='git status -s'
+alias gl='git lg'
+alias gco='git checkout'
+
+# vim + crontab = <3
+alias crontab='VIM_CRONTAB=true crontab'
