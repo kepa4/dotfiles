@@ -135,3 +135,6 @@ export PATH=$PATH:$EC2_HOME/bin
 export AWS_HOME=$HOME/.aws
 export AWS_ACCESS_KEY=$(cat $AWS_HOME/rootkey/access_key_id)
 export AWS_SECRET_KEY=$(cat $AWS_HOME/rootkey/secret_access_key)
+
+# vi? no, vim
+export EDITOR=vim
