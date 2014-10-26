@@ -9,7 +9,7 @@ tmux send-keys "cd ~/Documents/dev/rankomatic/ && bash bin/run_dev_server.sh" C-
 # rqworker panes
 tmux split-window
 tmux select-pane -t 1
-tmux send-keys "workon ot_orders && rqworker" C-m
+tmux send-keys "cd ~/Documents/dev/rankomatic/ && workon ot_orders && rqworker" C-m
 
 tmux split-window -h
 tmux select-pane -t 2
@@ -20,6 +20,9 @@ tmux send-keys "workon ot_orders && rqinfo" C-m
 tmux new-window -t otorder:2 -n 'editing'
 tmux send-keys "cd ~/Documents/dev/rankomatic/rankomatic" C-m
 tmux split-window -h
+tmux select-pane -t 0
+tmux resize-pane -x 85
+tmux select-pane -t 1
 tmux split-window
 
 
