@@ -1,9 +1,22 @@
 UnBundle 'justinmk/vim-sneak'
-color solarized
 set bg=light
 set nospell
 
 set guioptions-=r
+set laststatus=2
+set binary noeol
+set tabstop=2
+set expandtab
+set number
+set updatetime=100
+let NERDTreeShowHidden=1
+set listchars=eol:¬
+let g:prettier#config#config_precedence = 'prefer-file'
+let g:prettier#autoformat = 0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html Prettier
+nmap <C-p> :Prettier
+execute pathogen#infect()
+
 
 "VIM + crontab
 if $VIM_CRONTAB == "true"

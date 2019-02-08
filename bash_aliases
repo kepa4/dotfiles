@@ -8,7 +8,7 @@ alias tmux='tmux -2'
  function parse_git_branch {
      git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1) /'
  }
- PS1="\[\e[32m\]\$(parse_git_branch)\[\e[34m\]\h:\W \$ \[\e[m\]"
+ PS1="\[\e[91m\]\$(parse_git_branch)\[\e[92m\]\h:\W \$ \[\e[m\]"
  export PS1
 
 # git aliases

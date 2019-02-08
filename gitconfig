@@ -1,6 +1,6 @@
 [user]
-	name = Juan Solis
-	email = jsolis@henselphelps.com
+	name = Keenan Pautler
+	email = kpautler@henselphelps.com
 [push]
 	default = simple
 [alias]
@@ -12,6 +12,6 @@
 	autocrlf = input
 	safecrlf = true
 [commit]
-	gpgSign = true
+	gpgSign = false
 	
 	
