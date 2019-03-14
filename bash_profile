@@ -138,3 +138,4 @@ export AWS_SECRET_KEY=$(cat $AWS_HOME/rootkey/secret_access_key)
 
 # vi? no, vim
 export EDITOR=vim
+export PATH="$PATH:/opt/mssql-tools/bin"

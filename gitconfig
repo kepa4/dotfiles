@@ -12,6 +12,4 @@
 	autocrlf = input
 	safecrlf = true
 [commit]
-	gpgSign = false
-	
-	
+	gpgSign = true
