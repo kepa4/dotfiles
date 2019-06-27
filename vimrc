@@ -1,4 +1,4 @@
-set nocompatible          
+set nocompatible
 filetype off 
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -28,6 +28,10 @@ set number
 set updatetime=100
 let NERDTreeShowHidden=1
 set listchars=eol:¬
+set list
+syntax on
+set backspace=indent,eol,start
+colorscheme relic
 "let g:prettier#config#config_precedence = 'prefer-file'
 "let g:prettier#autoformat = 0
 "autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html Prettier
