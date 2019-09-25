@@ -11,5 +11,6 @@
 	editor = vim
 	autocrlf = input
 	safecrlf = true
+	excludesfile = /home/kpp_local/.gitignore_global
 [commit]
 	gpgSign = true
