@@ -15,6 +15,8 @@ export PATH="$PATH:/opt/mssql-tools/bin"
 alias gs='git status -s'
 alias gl='git lg'
 alias gco='git checkout'
+alias gd='git diff'
+eval $(thefuck --alias)
 
 # vim + crontab = <3
 alias crontab='VIM_CRONTAB=true crontab'

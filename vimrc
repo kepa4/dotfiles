@@ -21,7 +21,10 @@ Plugin 'zxqfl/tabnine-vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'luochen1990/rainbow'
 Plugin 'severin-lemaignan/vim-minimap'
-Plugin 'iamcco/markdown-preview.nvim'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'elzr/vim-json'
+Plugin 'prettier/vim-prettier'
+Plugin 'vim/killersheep'
 
 set bg=light
 set nospell
@@ -40,6 +43,8 @@ syntax on
 set backspace=indent,eol,start
 set undofile
 colorscheme relic
+set viminfo='20,<3000
+au BufRead,BufNewFile *.ts   setfiletype typescript
 "let g:prettier#config#config_precedence = 'prefer-file'
 "let g:prettier#autoformat = 0
 "autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html Prettier
