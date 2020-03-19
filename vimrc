@@ -25,6 +25,10 @@ Plugin 'leafgarland/typescript-vim'
 Plugin 'elzr/vim-json'
 Plugin 'prettier/vim-prettier'
 Plugin 'vim/killersheep'
+Plugin 'jaredgorski/spacecamp'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'dylanaraps/wal.vim'
 
 set bg=light
 set nospell
@@ -42,8 +46,9 @@ set list
 syntax on
 set backspace=indent,eol,start
 set undofile
-colorscheme relic
 set viminfo='20,<3000
+set foldmethod=syntax
+set nofoldenable
 au BufRead,BufNewFile *.ts   setfiletype typescript
 "let g:prettier#config#config_precedence = 'prefer-file'
 "let g:prettier#autoformat = 0
@@ -55,6 +60,10 @@ if $VIM_CRONTAB == "true"
     set nobackup
     set nowritebackup
 endif
-
 call vundle#end()
+
+colorscheme wal
+"color for EOL
+hi NonText ctermfg=144
+
 filetype plugin indent on

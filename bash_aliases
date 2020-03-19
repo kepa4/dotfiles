@@ -1,3 +1,4 @@
+(cat ~/.cache/wal/sequences &)
 # tmux
 alias tmux='tmux -2'
 
@@ -16,6 +17,7 @@ alias gs='git status -s'
 alias gl='git lg'
 alias gco='git checkout'
 alias gd='git diff'
+alias c='pygmentize -g'
 eval $(thefuck --alias)
 
 # vim + crontab = <3
